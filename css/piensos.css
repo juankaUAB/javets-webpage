@@ -1,0 +1,77 @@
+header.cap {
+    background-image: url("../imgs/fondoheader.jpg");
+    padding: 1rem 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+#titulo {
+    text-align: center;
+    font-family: Rockwell Nova;
+}
+#perro {
+    float: left;
+    vertical-align: center;
+}
+
+#gato {
+    float: left;
+    vertical-align: center;
+}
+
+header.cap {
+    font-family: Brush Script MT;
+    font-size: 300%;
+    line-height: 1px;
+}
+
+.titulo h3 {
+    font-family: Ebrima;
+    text-align: center;
+    font-size: 300%;
+}
+
+.grid_productos {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.producto {
+    margin: 50px;
+    background-color: #83e6e1;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.producto h1, p, h3 {
+    word-break:break-all;
+}
+
+.boton{
+    margin: 4px;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: Dubai Light;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    justify-content: right;
+    margin-bottom: 10px;
+}
